@@ -1,0 +1,168 @@
+@font-face {
+    font-family: airbnb;
+    src: url(./AirbnbCerealVF_W_Wght.2d9d32865ef1262644c455b3ead871e9.woff2);
+}
+*
+{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+
+}
+body
+{
+    font-family: airbnb;
+}
+.main
+{
+    background-color: white;
+    width: 100vw;
+    height: 100vh;
+}
+.top-section
+{
+    background-color:#FDFDFD ;
+    height: 25%;
+    border-bottom: 1px solid rgb(236, 236, 236);
+}
+.nav
+{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 30px 50px;
+
+}
+.nav img
+{
+    height: 50px;
+
+}
+.left-nav
+{
+    display: flex;
+    align-items: center;
+}
+.left-nav img
+{
+    height: 30px;
+    margin-right: 5px;
+
+}
+.left-nav h3
+{
+color: red;
+font-weight: 600;
+font-family: airbnb;
+font-size: 20px;
+}
+.mid-nav {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    margin-left: 100px;
+    
+}
+.mid-nav img 
+{
+    height: 40px;
+}
+.mid-nav a 
+{
+    margin-right: 20px;
+    text-decoration: none;
+    color: black;
+}
+.right-nav 
+{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    
+}
+.right-nav i
+{
+    background-color: whitesmoke;
+    padding: 10px;
+    border-radius: 50%;
+}
+.right-nav a
+{
+    text-decoration: none;
+    color: black;
+}
+.bottom-nav
+
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height:30% ;
+    
+}
+.search-bar
+{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    
+    height:100%;
+    width: 60%;
+    border-radius: 50px;
+    padding: 0px 20px;
+    border:1px solid rgb(236, 236, 236);
+    box-shadow: 1px 5px 20px rgb(211, 206, 206);
+
+}
+.search-bar .first
+{
+    
+    width: 30%;
+    border-right: 1px solid rgb(236, 236, 236);
+}
+.search-bar .second
+{
+   
+    width: 30%;
+    border-right: 1px solid rgb(236, 236, 236);
+}
+.search-bar .third
+{
+    
+    width: 30%;
+    display: flex;
+    justify-content: space-between;
+
+
+}
+.search-bar i
+{
+    background-color: red;
+    padding: 10px;
+    border-radius: 50%;
+    color: white;
+    
+}
+.search-bar input
+{
+    border: none;
+    outline: none;
+    
+    background: transparent;
+}
+@media (max-width:1128px){
+    .right-nav a {
+        display: none;
+    }
+
+    
+}
+
+@media (max-width:743px){
+    .mid-nav {
+        display: none;
+    }
+    
+    
+}
