@@ -69,6 +69,14 @@ font-size: 20px;
 {
     height: 40px;
 }
+#desk-bell
+{
+    height: 50px;
+}
+#house
+{
+    height: 50px;
+}
 .mid-nav a 
 {
     margin-right: 20px;
